@@ -21,6 +21,7 @@ import android.os.Bundle;
                     .setItems(elementos, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int item) {
                             String datoseleccionado = elementos[item];
+                            ((MainActivity)getActivity()).capturarSeleccionadoitemsimple(datoseleccionado);
                         }
                     })
                     .create();

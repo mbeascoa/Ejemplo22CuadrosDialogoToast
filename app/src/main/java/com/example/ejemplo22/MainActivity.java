@@ -35,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
         DialogoConfirmacion confirmacion  = new DialogoConfirmacion();
         confirmacion .show(getFragmentManager(), "Cuadro confirmación");
     }
-
+    public void capturarSeleccionadosinglechoice(String dato) {
+        Toast.makeText(this, "Se ha seleccionado el item radio simple", Toast.LENGTH_SHORT).show();
+    }
+    public void capturarSeleccionadoitemsimple(String dato) {
+        Toast.makeText(this, "Se ha seleccionado el item simple", Toast.LENGTH_SHORT).show();
+    }
     public void accionAceptar() {
         mensajePersonalizado("Enviando Datos");
     }

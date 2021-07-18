@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="mostrarDialogoSeleccionSimple"
-            android:text="SUC" />
+            android:text="SUC"
+            app:icon="@drawable/ic_menu_vcard" />
     </LinearLayout>
 
     <LinearLayout
@@ -67,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="mostrarDialogoSeleccionRadio"
-            android:text="SOL" />
+            android:text="SOL"
+            app:icon="@drawable/ic_menu_vcard" />
     </LinearLayout>
 
     <Button

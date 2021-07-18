@@ -20,6 +20,7 @@ import android.os.Bundle;
                     .setSingleChoiceItems(elementos, -1,new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int item) {
                             String datoseleccionado = elementos[item];
+                            ((MainActivity)getActivity()).capturarSeleccionadosinglechoice(datoseleccionado);
                         }
                     })
                     .create();
